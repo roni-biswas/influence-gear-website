@@ -1,0 +1,13 @@
+/* small/mobile device */
+@media screen and (max-width: 576px) {
+  .menu-bar {
+    display: block;
+  }
+  .list-item,
+  .search-icon {
+    display: none;
+  }
+  .shopping-cart-icon {
+    display: block;
+  }
+}
