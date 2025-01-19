@@ -1,5 +1,11 @@
 /* small/mobile device */
 @media screen and (max-width: 576px) {
+  html {
+    font-size: 8px;
+  }
+  .navbar {
+    margin-top: 4rem;
+  }
   .menu-bar {
     display: block;
   }
@@ -9,5 +15,15 @@
   }
   .shopping-cart-icon {
     display: block;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    gap: 10rem;
+  }
+  .banner .banner-content {
+    text-align: center;
+  }
+  .primary-btn {
+    justify-self: center;
   }
 }
