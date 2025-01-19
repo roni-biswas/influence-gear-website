@@ -174,12 +174,16 @@ header related styles
 }
 
 .banner-image {
-  max-width: 47.5rem;
+  width: 37rem;
+  height: 37rem;
   background-image: url(../images/Circle\ design.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner-image > img {
-  width: 100%;
+  width: 95%;
 }

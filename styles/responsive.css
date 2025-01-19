@@ -1,5 +1,38 @@
+/* extra small max width 428px */
+@media screen and (max-width: 428px) {
+  html {
+    font-size: 6px;
+  }
+  .navbar {
+    margin-top: 4rem;
+  }
+  .menu-bar {
+    display: block;
+  }
+  .list-item,
+  .search-icon {
+    display: none;
+  }
+  .shopping-cart-icon {
+    display: block;
+  }
+  .shopping-cart-icon > .dot {
+    border: 1px solid #ffffff;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+    gap: 10rem;
+  }
+  .banner .banner-content {
+    text-align: center;
+  }
+  .primary-btn {
+    justify-self: center;
+  }
+}
 /* small/mobile device */
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 429px) and (max-width: 576px) {
   html {
     font-size: 8px;
   }
