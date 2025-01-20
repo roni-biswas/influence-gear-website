@@ -50,6 +50,10 @@
     justify-self: right;
   }
 
+  .feature-section {
+    flex-direction: column-reverse;
+  }
+
   .feature-content {
     align-items: center;
     text-align: center;
