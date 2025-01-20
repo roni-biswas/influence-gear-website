@@ -43,6 +43,9 @@
     flex-wrap: wrap;
     gap: 3rem;
   }
+  .product-college-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 /* small/mobile device */
 @media screen and (min-width: 429px) and (max-width: 576px) {
@@ -86,5 +89,8 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 3rem;
+  }
+  .product-college-container {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

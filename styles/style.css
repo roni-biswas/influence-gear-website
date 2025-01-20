@@ -35,6 +35,10 @@ shared styles
   margin: 0 auto;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .display-flex {
   display: flex;
 }
@@ -243,3 +247,88 @@ sponsor company logo styles
 }
 
 /* end */
+
+/* product college related styles */
+
+.product-collage {
+  max-width: 1047px;
+  padding: 0 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.product-college-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.product-college-section-title {
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 30px;
+}
+
+.product-list {
+  padding: 1.5rem 1.8rem;
+  border-radius: 5px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+}
+
+.product-list .product-image {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.product-content .product-name {
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: #18191f;
+  margin: 16px 0 5px 0;
+  text-transform: capitalize;
+}
+
+.product-content .product-price {
+  font-family: "Inter", serif;
+  font-size: 2.4rem;
+  color: #000000;
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+.product-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.rating-icon,
+.rating-icon > i {
+  font-size: 1.6rem;
+}
+
+.product-rating > .rating-icon-half {
+  font-size: 2.3rem;
+}
+
+.product-rating .rating-icon,
+.rating-icon-half {
+  color: orange;
+}
+
+.product-rating #rating {
+  font-size: 2rem;
+  color: #5e6366;
+  font-weight: 600;
+}
+
+.product-shifting,
+.product-available,
+.product-description {
+  color: #787885;
+  font-family: "Inter", serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 1.8%;
+  line-height: 140%;
+}
