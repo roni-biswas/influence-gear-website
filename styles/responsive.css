@@ -27,6 +27,12 @@
   .banner .banner-content {
     text-align: center;
   }
+  .banner-image {
+    width: 100%;
+  }
+  .banner-image > .image {
+    width: 100%;
+  }
   .primary-btn {
     justify-self: center;
   }
@@ -55,6 +61,14 @@
   }
   .banner .banner-content {
     text-align: center;
+  }
+
+  .banner-image {
+    width: 100%;
+  }
+
+  .banner-image > .image {
+    width: 100%;
   }
   .primary-btn {
     justify-self: center;

@@ -75,7 +75,9 @@ shared styles
 header related styles
 ==============================================
 */
-
+.header {
+  max-width: 1200px;
+}
 .navbar {
   justify-content: space-between;
   align-items: center;
@@ -150,12 +152,13 @@ header related styles
 /* banner related styles */
 
 .banner {
+  max-width: 1200px;
   align-items: center;
-  gap: 13rem;
+  justify-content: space-between;
 }
 
 .banner-content {
-  max-width: 58rem;
+  max-width: 58.2rem;
 }
 
 .banner-title {
@@ -174,16 +177,21 @@ header related styles
 }
 
 .banner-image {
-  width: 37rem;
-  height: 37rem;
+  max-width: 47.5rem;
+  height: 47.5rem;
   background-image: url(../images/Circle\ design.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.banner-image > img {
-  width: 95%;
+.banner-image > .image {
+  max-width: 44rem;
+}
+
+.image > img {
+  width: 100%;
 }
