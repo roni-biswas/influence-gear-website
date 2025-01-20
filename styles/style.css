@@ -382,3 +382,59 @@ sponsor company logo styles
 .feature-btn {
   border-radius: unset;
 }
+
+/* footer section related styles
+==========================================
+*/
+
+.footer {
+  max-width: 1440px;
+  color: #ffffff;
+  background-color: #0a0826;
+  position: static;
+}
+.footer-content {
+  padding: 5rem 0;
+}
+.influencer-products {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  font-family: "Manrope", serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: #d9dbe1;
+  margin-bottom: 16px;
+}
+
+.footer-icons ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.footer-icons ul li {
+  list-style: none;
+  width: 32px;
+  height: 32px;
+  padding: 0.7rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.footer-icons ul li a {
+  font-size: 1.7rem;
+  color: #ffffff;
+  transition: 0.2s;
+}
+
+.footer-icons ul li a:hover {
+  color: var(--primary-color);
+}
