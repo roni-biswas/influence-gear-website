@@ -36,6 +36,13 @@
   .primary-btn {
     justify-self: center;
   }
+  .company-logo {
+    padding: 2rem 4rem;
+    height: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
 }
 /* small/mobile device */
 @media screen and (min-width: 429px) and (max-width: 576px) {
@@ -72,5 +79,12 @@
   }
   .primary-btn {
     justify-self: center;
+  }
+  .company-logo {
+    padding: 2rem 4rem;
+    height: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
   }
 }
