@@ -180,6 +180,10 @@ header related styles
   margin-bottom: 1.6rem;
 }
 
+.banner-btn:active {
+  border-radius: 4rem;
+}
+
 .banner-image {
   max-width: 47.5rem;
   height: 47.5rem;
@@ -274,6 +278,7 @@ sponsor company logo styles
   padding: 1.5rem 1.8rem;
   border-radius: 5px;
   box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 
 .product-list .product-image {
@@ -331,4 +336,49 @@ sponsor company logo styles
   font-weight: 700;
   letter-spacing: 1.8%;
   line-height: 140%;
+}
+
+.more-product-btn {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: none;
+  margin-top: 5rem;
+  justify-self: right;
+}
+
+/* feature section related styles
+=====================================
+*/
+
+.feature-section {
+  gap: 9rem;
+}
+.feature-image {
+  width: 100%;
+}
+
+.feature-content {
+  max-width: 610px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.feature-title {
+  font-size: 3.4rem;
+  font-weight: 700;
+  color: #0a0826;
+  margin-bottom: 16px;
+}
+
+.feature-description {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #6c6c6c;
+  margin-bottom: 16px;
+}
+
+.feature-btn {
+  border-radius: unset;
 }

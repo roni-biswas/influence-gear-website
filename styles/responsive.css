@@ -46,6 +46,14 @@
   .product-college-container {
     grid-template-columns: repeat(1, 1fr);
   }
+  .more-product-btn {
+    justify-self: right;
+  }
+
+  .feature-content {
+    align-items: center;
+    text-align: center;
+  }
 }
 /* small/mobile device */
 @media screen and (min-width: 429px) and (max-width: 576px) {
@@ -92,5 +100,15 @@
   }
   .product-college-container {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .more-product-btn {
+    justify-self: right;
+  }
+  .feature-section {
+    flex-direction: column-reverse;
+  }
+  .feature-content {
+    align-items: center;
+    text-align: center;
   }
 }
